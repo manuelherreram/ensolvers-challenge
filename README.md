@@ -1,11 +1,11 @@
 # Todo App
 
-This is a simple CRUD (Create, Read, Update, Delete) Todo app built using React for the frontend and Express with MongoDB for the backend.
+This is a combined Markdown file containing information about a simple CRUD Todo app built with React and Express/MongoDB.
 
 ## Features
 
-- Add a new Todo item
-- View all Todo items
+- Add new Todo items
+- View all existing Todo items
 - Update existing Todo items
 - Delete Todo items
 
@@ -14,58 +14,66 @@ This is a simple CRUD (Create, Read, Update, Delete) Todo app built using React 
 - **Frontend**: React
 - **Backend**: Express.js, MongoDB
 - **Database**: MongoDB
-- **Styling**: Bootstrap
+- **Styling**: Bootstrap (optional)
 
 ## Setup
 
 ### Backend Setup
 
 1. Install dependencies:
+
    ```bash
    npm install
-   Start the backend server:
    ```
 
-bash
-Copy code
-npm start
-The backend server will run on port 5000 by default.
+2. Start the backend server:
 
-Frontend Setup
-Install dependencies:
+   ```bash
+   npm start
+   ```
 
-bash
-Copy code
-npm install
-Start the frontend server:
+3. The backend server will run on port 5000 by default.
 
-bash
-Copy code
-npm start
-The frontend server will run on port 3000 by default.
+### Frontend Setup
 
-Connecting Frontend to Backend
-Ensure that the backend server is running on http://localhost:5000.
-The frontend server is configured to proxy requests to the backend server automatically.
-Folder Structure
-css
-Copy code
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the frontend server:
+
+   ```bash
+   npm start
+   ```
+
+3. The frontend server will run on port 3000 by default.
+
+### Connecting Frontend to Backend
+
+- Ensure the backend server is running on http://localhost:5000.
+- The frontend server is configured to proxy requests to the backend server automatically.
+
+## Folder Structure
+
+```
 todo-app/
 ├── backend/
-│ ├── server.js
-│ ├── models/
-│ ├── routes/
-│ └── ...
+│   ├── server.js
+│   ├── models/
+│   ├── routes/
+│   └── ...
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── AddTodo.js
-│ │ │ ├── TodoList.js
-│ │ │ ├── EditTodo.js
-│ │ │ └── ...
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ └── ...
-│ └── ...
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── AddTodo.js
+│   │   │   ├── TodoList.js
+│   │   │   ├── EditTodo.js
+│   │   │   └── ...
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── ...
+│   └── ...
 └── README.md
-Contributors
+```
